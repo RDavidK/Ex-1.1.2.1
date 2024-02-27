@@ -1,17 +1,18 @@
 import java.util.Scanner;
-
 class HelloWorld {
     public static void main(String[] args) {
         //Start
       Scanner input = new Scanner(System.in);
-       System.out.println("Enter Full name");
+       System.out.println("Enter numbers");
         
-        int Name = input.nextInt();
-        int Surname = input.nextInt();
+        int number1 = input.nextInt();
+        
+        int number2 = input.nextInt();
+        
         int sum;
         
-        sum = Name + Surname;
+        sum = number1 + number2;
         
-       
+        System.out.printf("Sum is %d\n", sum );
     }//Stop
 }
